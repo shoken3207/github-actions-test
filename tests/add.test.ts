@@ -6,7 +6,7 @@ describe("add", (): void => {
     expect(result).toEqual(3);
   });
   test("should return 4", (): void => {
-    const result: number = add(1, 2);
+    const result: number = add(2, 2);
     expect(result).toEqual(3);
   });
 });
