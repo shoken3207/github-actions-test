@@ -5,7 +5,7 @@ describe("minus", (): void => {
     expect(result).toEqual(3);
   });
   test("should return 1", (): void => {
-    const result: number = minus(4, 2);
+    const result: number = minus(4, 3);
     expect(result).toEqual(1);
   });
 });
